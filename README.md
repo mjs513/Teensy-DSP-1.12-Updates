@@ -35,11 +35,11 @@ https://developer.arm.com/downloads/...hain-downloads
 4. Copied the project file for gcc and made some major edits to cover all the new library functions and edited the file paths for each board I wanted to compile for.
 a. In [ project->manage -> project Items ] I deleted all the groups and recreated them using all the new groups and files from the latest CMSIS-DSP source folder.
 
-Name:	Capture.PNG 
+![Capture](https://user-images.githubusercontent.com/5366213/191507486-02c11db8-205e-4f37-b7fd-3a0a124d45e0.PNG)
 
 5. Then I selected the processor I wanted to compile for and did a left click and selected: Options for target board. In the CC Tab i edited the paths for files:
 
-Name:	Capture1.PNG 
+![Capture1](https://user-images.githubusercontent.com/5366213/191507513-77ad50bf-0d4f-4b24-ad92-038fb1765767.PNG)
 
 Then I did the Build for the target and got my compiled binary for the library. However the library files are now 9Meg versus the 2-3 meg they were before so not sure if all the compile options are correct but they are the default ones that come with the project file.
 
