@@ -8,9 +8,13 @@ The following folders have been removed:
 <blockquote>
 CMSIS/Lib/ (superseded by CMSIS/DSP/Lib/)
 CMSIS/DSP_Lib/ (superseded by CMSIS/DSP/)
-</blockquote>
 The following folders are deprecated:
 CMSIS/Include/ (superseded by CMSIS/DSP/Include/ and CMSIS/Core/Include/)
+</blockquote>
+
 for 5.5.1
+<blockquote>
 CMSIS/Include/ (superseded by CMSIS/DSP/Include/ and CMSIS/Core/Include/)
+</blockquote>
+
 In previous versions ARM CMSIS provided the gcc pre-compiled binaries for arm_math. Now with the latest versions you have to build your own libraries. However, think I broke the code on how that you can do that.
