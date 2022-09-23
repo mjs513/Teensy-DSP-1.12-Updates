@@ -40,7 +40,7 @@
   @{
 */
 
-#if 0
+#if 1
 #if defined ( __GNUC__ ) /*------------------ GNU Compiler ---------------------*/
 /* GNU gcc specific functions */
 
